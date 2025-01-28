@@ -10,3 +10,14 @@ stroke(#9e0059);
 line(300, 100, 400, 400);
 stroke(#F092CF);
 circle(200, 200, 10);
+// 0=FALSE 0=TRUE 
+int MyInt =4;
+float myReal = 2.5;
+char myChar = ´'a';
+String myString = "hello";
+
+boolean z = true;
+color fondo_rojo = color(200, 10, 10);
+
+void setup () {}
+void draw () {}
