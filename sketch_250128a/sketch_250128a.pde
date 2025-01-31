@@ -18,6 +18,7 @@ String myString = "hello";
 
 boolean z = true;
 color fondo_rojo = color(200, 10, 10);
-
+//esto se ejecuta al inicioo del progfreama una vez
 void setup () {}
+//se ejecuta 1 vez por fotograma
 void draw () {}
