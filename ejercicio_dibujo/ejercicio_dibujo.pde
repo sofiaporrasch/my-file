@@ -6,8 +6,12 @@ void draw(){
   translate (250, 270);
   
   
+  fill(#a4136d);
+  noStroke();
+  ellipse( 0, 50, 100, 100);
+  
   fill(#a4133c);
   noStroke();
-  ellipse( 0, 50, 200, 150);
+  ellipse( 60, 90, 100, 100);
 }
   
