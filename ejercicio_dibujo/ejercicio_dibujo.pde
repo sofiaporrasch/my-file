@@ -3,7 +3,7 @@ void setup(){
 }
 void draw(){
   //fondo
-  background (255);
+  background (#ffe4b3);
   
   //base cámara
   rectMode(CENTER);
@@ -34,6 +34,58 @@ circle(500, 300, 170);
 
 fill(#878787);
 circle( 500, 300, 150);
+
+fill(#c6c6c6);
+circle( 500, 300, 100);
+
+fill(#3c3c3b);
+circle( 500, 300, 90);
+
+rectMode(CENTER);
+fill(0);
+square(500, 300, 60);
+
+fill(#878787);
+circle(500, 300, 50);
+
+fill(0);
+circle(497, 303, 20);
+
+fill(255);
+circle(500, 300, 20);
+
+//cosito del flash
+rectMode(CENTER);
+  
+fill(210);
+stroke(0);
+rect(550, 175, 150, 25, 100);
+
+// boton 
+
+rectMode(CENTER);
+rect(250, 145, 100, 10, 100);
+rect(250, 135, 70, 10, 100);
+
+//barra lateral
+
+rectMode(CENTER);
+fill(#9d8386);
+rect(200, 300, 25, 125, 100);
+
+rectMode(CENTER);
+fill(#878787);
+rect(200, 300, 20, 120, 100);
+
+
+
+//circulito de arriba
+
+fill(0);
+circle(400,200,35);
+
+
+
 
 //guías de pixel vertical
 
