@@ -17,9 +17,23 @@ rect(395, 305, 510, 315, 28);
 rect(400, 300, 500, 300, 28);
 
 //lente
-fill(#878787);
+
 stroke(0);
+
+fill(#878787);
 circle(500, 300, 290);
+
+fill(#9d9d9c);
+circle(500, 300, 220);
+
+fill(0);
+circle(495,305,170);
+
+fill(#575756);
+circle(500, 300, 170);
+
+fill(#878787);
+circle( 500, 300, 150);
 
 //guías de pixel vertical
 
