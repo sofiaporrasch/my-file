@@ -5,6 +5,13 @@ void draw(){
   //fondo
   background (#ffe4b3);
   
+  noStroke();
+  fill(#dabbe0);
+  circle(700, 350, 600);
+  
+  fill(#f8c9b7);
+  circle(150, 100, 500);
+  
   //base cámara
   rectMode(CENTER);
   
@@ -84,6 +91,19 @@ rect(200, 300, 20, 120, 100);
 fill(0);
 circle(400,200,35);
 
+//brillitos
+
+noStroke();
+
+fill(#dabbe0);
+circle(250, 200, 20);
+circle(270, 260, 20);
+circle(200, 400, 20);
+
+fill(#93aeca);
+circle(300, 270, 20);
+circle(330, 410, 20);
+circle(240, 375, 20);
 
 
 
