@@ -1,24 +1,14 @@
-int distancia = 100;
+
 
 void setup(){
   size (500, 500);
-  //mayor que >
-  // menor que<
-  // igual a ==
-  
-  //verificar igualdad
-
-  if (distancia == 30) {
-    print("la distancia es igual a 30");
-  } else if (distancia>30) { 
-    print("la distancia es mayor a 30");
-  }else if (distancia < 30){
-    print ("la distancia es menor a 30");
-  }else {
-    print ("hola");
-    
+}
+void draw(){
+  if (mouseX>250){
+    ellipse(mouseX, mouseY, 50, 50);
+  }else{
+    ellipse(mouseX, mouseY, 10, 10);
   }
 }
-    
-  
+
   
