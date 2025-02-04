@@ -1,16 +1,17 @@
-boolean isActive;
+int distancia;
 
 void setup(){
   size (500, 500);
-  isActive = false;
+  distancia =10;
+  
 
 
 
 
-  if (isActive) {
-    print("true");
+  if (distancia > 30) {
+    print("la distancia es mayor a 30");
   } else { 
-    print("false");
+    print("la distancia es menor a 30");
   }
 }
     
