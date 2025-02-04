@@ -2,15 +2,15 @@ boolean isActive;
 
 void setup(){
   size (500, 500);
-  isActive = true;
+  isActive = false;
 
 
 
 
   if (isActive) {
-    print("el comando se activó");
+    print("true");
   } else { 
-    print("el comando NO se activo");
+    print("false");
   }
 }
     
