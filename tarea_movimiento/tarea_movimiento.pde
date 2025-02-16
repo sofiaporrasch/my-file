@@ -1,11 +1,21 @@
 float x = 0;
 float speed = 3;
+
+float xm = 0;
+float xp = 700;
+
+float x1, y1, r, g , b;
+
+
+
 void setup() {
   size (700, 500);
+  
+ 
 }
 
 void draw () {
- background (#a2d6f9);
+background (#a2d6f9); 
  
  // sol
  fill ( #ffc600);
@@ -35,7 +45,7 @@ void draw () {
  circle ( x +550, 70, 120);
  circle ( x + 600, 80, 100);
  
- //mar
+ 
  
  x= x + speed; 
  
@@ -46,5 +56,29 @@ void draw () {
 if ( x <=0) { 
   speed = 3;
 }
-}
+
+
+
+ //mar
+ fill(#03045e);
+  rect(xm, 250, xp, 250);
+  
+  fill(#0077b6);
+  rect(xm, 300, xp, 250);
+  
+   fill(#00b4d8);
+  rect(xm, 400, xp, 250);
+  
+// puntitos 
+x1=  random( 0, 700);
+ y1=  random ( 250, 500);
+r= random ( 0,20);
+ g= random( 0, 20);
+ b= random( 0, 255);
+
+ noStroke();
+ fill(r, g , b, 100);
+ circle (x1, y1 , 25) ;
+} 
+
  
