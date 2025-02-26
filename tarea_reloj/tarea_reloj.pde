@@ -32,7 +32,7 @@ void setup () {
 void draw() {
 
 
-  if (h>5) {
+  if (h>17) {
     background(#03045e);
   } else {
     background (#89c2d9);
@@ -67,7 +67,7 @@ void draw() {
   textSizeMin = m*2;
   posXHour = width/ 5;
   posYHour = height/3;
-  circleSizeHour = h*5;
+  circleSizeHour = h*4;
   textSizeHour = h*2;
 
   //circulo hora
