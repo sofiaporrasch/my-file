@@ -17,7 +17,7 @@ void setup() {
   frameRate(800);
 
   minim=new Minim(this);
-  player = minim.loadFile("time.mp3");
+  player = minim.loadFile("cancion-dominic.mp3.mp3");
   player.play();
 
   fft = new FFT(player.bufferSize(), player.sampleRate());
