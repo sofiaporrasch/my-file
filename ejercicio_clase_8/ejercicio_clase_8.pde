@@ -20,7 +20,7 @@ void draw () {
     image(d, 0, 0);
   }
   
-  if (fase > 2 ) { image (i,0,0);
+  if (fase > 2 ) { fase =0;
   }
 }
 
