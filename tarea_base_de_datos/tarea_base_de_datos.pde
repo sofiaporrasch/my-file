@@ -35,7 +35,7 @@ void setup() {
 void draw() {
   background(0);
   
-  // Dibujar espiral de círculos
+  //  espiral 
   float angle = 0;
   float radius = 10;
   
@@ -59,7 +59,7 @@ void draw() {
     }
   }
   
-  // Leyenda interactiva
+  // info
   fill(255);
   textSize(16);
   text("Canciones de Spotify", 30, 30);
